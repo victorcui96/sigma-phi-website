@@ -1,0 +1,124 @@
+h1, h2, h4, h5 {
+	color: #fdfdfd;
+	display: block;
+	font-family: 'calibri';
+	text-align: center;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+}
+
+.small{
+	font-size: small;
+	margin-bottom: 0.5em;
+}
+
+.small > li{
+	font-size: 10pt;
+}
+
+.center{
+	text-align: center;
+}
+
+.black_text {
+	color: #161b1f;
+}
+
+.down {
+	position: absolute;
+	left: 50%;
+	margin-left: -24px;
+	top:85%;
+}
+
+.section {
+	padding: 5% 0;
+	float: left;
+	width: 100%;
+}
+
+.black{
+	background-color: #161b1f;
+}
+
+.white{
+	background-color: #fdfdfd;
+}
+
+html,body {
+	background-color: #161b1f;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.headerrow {
+	margin: 0;
+	padding: 0;
+}
+
+.bannercontainer {
+	overflow: hidden;
+	padding-left: 0;
+	background-image: url("header.jpg");
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.brother {
+	display: block;
+	height: auto;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+.profile{
+	border-radius: 50%;
+	width: 40%;
+	margin-right: 8px;
+	float: left;
+}
+
+.bio{
+	width: 55%;
+	display: inline-block;
+}
+
+.bio > h4{
+	text-align: left;
+}
+
+.info{
+	width: 100%;
+	padding-top: 10%;
+	text-align: center;
+	height: 100%;
+}
+
+.bannerimg {
+	height: 100%;
+}
+
+
+.letter {
+	position: relative;
+	top: 10%;
+	color: white;
+	font-family: 'calibri';
+}
+
+.rush {
+	top: 30%;
+	position: relative;
+	color: white;
+}
+
+.signature {
+	float: right;
+}
